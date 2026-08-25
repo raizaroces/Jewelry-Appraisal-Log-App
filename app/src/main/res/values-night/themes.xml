@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base night theme -->
+    <style name="Base.Theme.CNDC_LPAR_RAR_FinalExer3" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/black_333</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="Theme.CNDC_LPAR_RAR_FinalExer3" parent="Base.Theme.CNDC_LPAR_RAR_FinalExer3" />
+</resources>

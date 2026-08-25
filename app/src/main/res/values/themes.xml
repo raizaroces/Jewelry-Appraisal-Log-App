@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.CNDC_LPAR_RAR_FinalExer3" parent="Theme.Material3.DayNight">
+        <!-- Theme colors -->
+        <item name="colorPrimary">@color/black_333</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Apply ActionBar style -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="Theme.CNDC_LPAR_RAR_FinalExer3" parent="Base.Theme.CNDC_LPAR_RAR_FinalExer3" />
+
+    <!-- Custom ActionBar style -->
+    <style name="MyActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/black_333</item>
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <!-- ActionBar title text color -->
+    <style name="MyActionBarTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
